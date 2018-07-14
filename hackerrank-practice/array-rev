@@ -1,0 +1,13 @@
+a = [1, 2, 3, 4]
+
+b = []
+
+x = len(a)
+
+# array reverse - Simply putting the array into another array
+
+for i in range(x):
+    b.append(a[x-1])
+    x -= 1
+
+print(b)
