@@ -11,3 +11,14 @@ for i in range(x):
     x -= 1
 
 print(b)
+
+str = "my name is deepak"
+
+y = str.strip()
+
+x = str.split()
+
+x1 = x[::-1]
+
+str1 = ''.join(x1)
+print(str1)

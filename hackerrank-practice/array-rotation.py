@@ -18,4 +18,4 @@ def left_rotation(a, n):
 if __name__ == '__main__':
     x = input('Type Here : ')
     x_list = list(x)
-    left_rotation(x_list, 4)
+    left_rotation(x_list, 2)

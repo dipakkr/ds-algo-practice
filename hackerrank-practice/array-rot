@@ -1,0 +1,32 @@
+a = [1, 2, 3, 4, 5]
+
+
+# Method 1
+
+def rot(a, n):
+
+    for j in range(n):
+        b = []
+        temp = a[0]
+        for i in range(len(a) -1):
+            b.append(a[i+1])
+        b.append(temp)
+        a = b
+    print(a)
+
+# Method 2 - Optimized
+
+
+def rot1(a, n):
+
+    count = 0
+    c = []
+    for i in range(len(a)):
+        c.append(a[(i + n) % len(a)])
+
+    print(c)
+
+
+rot(a, 3)
+
+rot1(a, 2)
