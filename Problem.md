@@ -17,7 +17,7 @@
 10. How are duplicates removed from an array without using any library ?
 
 
- TODO -- // Yet to Solve
+## UnSolved - Yet to Solve
 
 4. How do you find all pairs of an integer array whose sum is equal to a given number ?
 
@@ -37,7 +37,7 @@
 
 
 
-
+## Unsolved - Yet to Solve
 
 12 How do you check if two strings are anagrams of each other? (solution)
 
