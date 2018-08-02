@@ -1,7 +1,10 @@
 
-a = "python"
+a = "pyhton"
 
-for letter in "pyhton":
-    if letter == 'h':
-        break
-    print(letter)
+x = a[1]
+
+y = a[2]
+
+x = x + y
+
+print(x)
